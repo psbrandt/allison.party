@@ -1,0 +1,14 @@
+{
+  "name": "allison.party",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:psbrandt/allison.party.git",
+  "author": "Pascal Brandt <psbrandt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "start": "parcel serve index.html"
+  }
+}

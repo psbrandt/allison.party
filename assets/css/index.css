@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+html {
+  background: url(../img/background.jpg) no-repeat center center fixed
+    rgb(231, 238, 223);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookshopLink,
+a,
+a:link,
+a:visited,
+a:active {
+  font-size: 8em;
+  color: rgb(44, 24, 44);
+  text-decoration: none;
+  text-shadow: 0 0 5px rgb(231, 238, 223);
+}
+
+a:hover {
+  text-shadow: 0 0 10px rgb(231, 238, 223);
+}
