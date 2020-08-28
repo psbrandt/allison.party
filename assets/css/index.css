@@ -15,6 +15,16 @@ html {
   html {
     background-size: cover;
   }
+
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  body {
+    position: relative;
+  }
 }
 
 main {
