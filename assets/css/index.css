@@ -7,12 +7,14 @@ body {
 }
 
 html {
-  background: url(../img/background.jpg) no-repeat center center fixed
-    rgb(231, 238, 223);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(../img/background.jpg) no-repeat center center fixed #e7eedf;
   background-size: contain;
+}
+
+@media screen and (max-width: 980px) {
+  html {
+    background-size: cover;
+  }
 }
 
 main {
@@ -30,7 +32,7 @@ a,
 a:link,
 a:visited,
 a:active {
-  font-size: 8em;
+  font-size: 22vw;
   color: rgb(44, 24, 44);
   text-decoration: none;
   text-shadow: 0 0 5px rgb(231, 238, 223);
