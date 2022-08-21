@@ -37,6 +37,13 @@ main {
   align-items: center;
 }
 
+.bookshopLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+}
+
 .bookshopLink,
 a,
 a:link,
@@ -50,4 +57,12 @@ a:active {
 
 a:hover {
   text-shadow: 0 0 10px rgb(231, 238, 223);
+}
+
+.ctpa-banner {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
 }
